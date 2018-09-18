@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html><html><body>
+<p>Arrange</p>
+<button onclick="myFunction()">Click here</button>
+
+<p id="demo"></p>
+
+<script>
+
+    var arr = [3, -5, 2, 3, -23, 53, -50, 6, -45, 34];
+
+    document.getElementById("demo").innerHTML = arr;
+    function myFunction() {
+
+        arr.sort(function(a, b){
+
+            return a-b
+
+        });
+
+        document.getElementById("demo").innerHTML = arr;}
+
+</script>
+</body></html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let x = [3, 5, 2, 3, 23, 53, 50, 6, 45, 34];
+        var max = x[0];
+        var index = 0;
+        for(var i = 1; i < x.length; i++) {
+            if (x[i] > max) {
+                max = x[i];
+                index = i;
+            }
+        }
+        alert("max: " + max + " at position " + index);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

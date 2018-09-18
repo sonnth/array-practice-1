@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function reverse(a) {
+            var first = 0;
+            var last = a.length - 1;
+            while (first < last) {
+                var b = a[first];
+                a[first] = a[last];
+                a[last] = b;
+                first++;
+                last--;
+            }
+        }
+        var arr = [3, 5, 2, 3, 23, 53, 50, 6, 45, 34];
+        reverse(arr);
+        for (var i in arr) {
+            console.log(arr[i]);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
